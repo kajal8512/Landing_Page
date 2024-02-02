@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    border: 2px solid black;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: linear-gradient(135deg, #2C3E50, #d3ada4, #F2DDC0);
+}
+.side-corner{
+    color: #feffb2;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 40px;
+    color: #021231;
+}
+.learning{
+    color:#fdf6cb;
+}
+
+.quater{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 45px;
+    height: 180px;
+}
+
+.month{
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.learn{
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+    color: #f0a211;
+}
+
+.Poject{
+    padding: 3px;
+    font-size: 15px;
+    color: #e7d3ad; 
+    margin-left: 1rem;  
+}
+
+.first-month, .second-month, .third-month{
+    margin-left: 1.8rem;
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    color: #edeef0;
+    background-color:#2C3E50;
+}
+
+.contact{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    padding: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: #2C3E50;
+    color: #edeef0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.down-left-corner{
+    margin-left: 2rem;
+    width: 20%;
+    font-size: 17px;
+    color:#373801; 
+    margin-top: 20px;
+}
